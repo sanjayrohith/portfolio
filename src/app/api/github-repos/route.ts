@@ -83,7 +83,7 @@ export async function GET(req: NextRequest) {
       const notSeen = !seen.has(r.id);
       if (notSeen) seen.add(r.id);
       const nameLower = (r.name || '').toLowerCase();
-      const excluded = nameLower === 'sanjayrohith'.toLowerCase() || nameLower === 'seegpa'.toLowerCase();
+      const excluded = nameLower === 'sanjayrohith'.toLowerCase() || nameLower === 'seegpa'.toLowerCase() || nameLower === 'portfolio'.toLowerCase();
       return notSeen && !r.fork && !excluded;
     });
 
