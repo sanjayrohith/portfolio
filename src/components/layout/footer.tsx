@@ -1,4 +1,4 @@
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin , Mail} from 'lucide-react';
 
 const socialLinks = [
   {
@@ -11,6 +11,11 @@ const socialLinks = [
     href: 'https://www.linkedin.com/in/sanjayrohith18/',
     icon: <Linkedin className="h-6 w-6" />,
   },
+  {
+    name: 'Email',
+    href: 'mailto:sanjayrohith1802@gmail.com',
+    icon: <Mail className="h-6 w-6" />,
+  }
 ];
 
 export default function Footer() {
