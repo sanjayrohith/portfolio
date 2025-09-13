@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "f-collab",
+      "description": "A collaborative platform screenshot.",
+      "imageUrl": "https://picsum.photos/seed/fcollab/600/400",
+      "imageHint": "collaboration flowchart"
+    },
+    {
+      "id": "codechat-v2",
+      "description": "A real-time chat application interface.",
+      "imageUrl": "https://picsum.photos/seed/codechat/600/400",
+      "imageHint": "chat code"
+    }
+  ]
+}
