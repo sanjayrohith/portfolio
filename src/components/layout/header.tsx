@@ -62,6 +62,17 @@ export default function Header() {
               {link.name}
             </a>
           ))}
+          {/* Glassmorphic Resume Button */}
+          <a
+            href="https://drive.google.com/file/d/1InIAMC5cM64krOUjclTahrxp5HP5dPsj/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-2 group inline-flex items-center px-5 py-2 text-sm font-medium rounded-full border border-white/20 bg-white/10 backdrop-blur-xl shadow-sm hover:bg-white/20 hover:border-white/30 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary/40 focus:ring-offset-2 focus:ring-offset-background"
+          >
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/80 to-primary/60 group-hover:from-primary group-hover:via-primary group-hover:to-primary/80">
+              MyResume
+            </span>
+          </a>
         </nav>
         <div className="md:hidden">
           <Button onClick={toggleMenu} variant="ghost" size="icon" aria-expanded={isMenuOpen} aria-label="Toggle navigation">
@@ -83,6 +94,17 @@ export default function Header() {
                   {link.name}
                 </a>
               ))}
+              <a
+                href="https://drive.google.com/file/d/1InIAMC5cM64krOUjclTahrxp5HP5dPsj/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsMenuOpen(false)}
+                className="mt-2 group inline-flex items-center justify-center w-full px-5 py-2 text-sm font-medium rounded-xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-sm hover:bg-white/20 hover:border-white/30 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary/40 focus:ring-offset-2 focus:ring-offset-background"
+              >
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/80 to-primary/60 group-hover:from-primary group-hover:via-primary group-hover:to-primary/80">
+                  MyResume
+                </span>
+              </a>
             </nav>
           </div>
         </div>

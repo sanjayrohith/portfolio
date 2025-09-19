@@ -60,6 +60,7 @@ export default function ContactForm() {
         description: 'Please try again later.',
         variant: 'destructive',
       });
+      console.log('Contact form submission error', e);
     }
   }
 
